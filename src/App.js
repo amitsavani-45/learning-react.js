@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import  React, { useState } from "react";
 
-function App() {
+import './App.css';
+import logo from './images/AtomOne-Logonew.jpg';
+
+function App() { 
+    const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+
+    
+    <div className="container">
+
+    <div className="header1">
+        <img src={logo} alt="AtomOne Logo" style={{ width: '200px', height: 'auto' }}/>
+        <button className="button" onClick={() => setMenuOpen(prev => !prev)}>
+          ☰
+        </button>
+        
+      </div>
+          {menuOpen && (
+        <div className="menu">
+          <a href="#">Home</a>
+          <a href="#">Intern Info</a>
+          <a href="#">Contact</a>
+        </div>
+      )}
+      
+      <header className="content">
+        <h1>Intern information</h1>
       </header>
+  
+ 
+      
+       
+
+      
+      <p>This Intern Information page is designed to collect and maintain essential details of interns joining Atom One. It includes personal and academic information such as name, college, department, city, contact number, email, and joining dat</p>
+      <section><h3>Name: Amit Savani</h3></section> 
+      <section><h3>college: Gec dahod</h3></section>
+      <section><h3>Department:IT</h3></section>
+      <section><h3>City:Jamnagar</h3></section>
+      <section><h3>Mobile Number:9773447607</h3></section>
+      <section><h3>Gmail:amitsavani45@gmail.com</h3></section>
+      <section><h3>Joining Date:05/01/2025</h3></section>
+       <section><h3>Internship Position:Software Engineer Trainee</h3></section>
+       <section><h3>Mentor Name:Abishek Verma</h3></section>
+      <footer className="footer && content1 ">
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+        <p>Contact: atomone@gmail.com</p>
+      </footer>
     </div>
+    </>
   );
 }
-
+ 
 export default App;
