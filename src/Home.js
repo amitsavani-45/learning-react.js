@@ -38,6 +38,11 @@ function Home(){
        </div>
 </section>
     
+
+  <section className="content2">
+        <h1>Our Values</h1>
+      </section>
+
 </div>
 
 
