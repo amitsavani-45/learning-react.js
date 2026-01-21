@@ -79,3 +79,14 @@
   margin-top: 24px;       /* ✅ more space between lines */
 }
 
+.content2 {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;        /* center text */
+ 
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 10px;                 /* space between About & paragraph */
+}
