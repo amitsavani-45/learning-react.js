@@ -4,33 +4,31 @@
   min-height: 100vh;
 }
 
-/* HEADER (Logo) */
 .header2 {
   display: flex;
-  justify-content: flex start;   /* center logo */
+  justify-content: flex start;  
   align-items: center;
   background-color: #ffffff;
   margin-top: 30px;
-  margin-bottom: 40px;       /* space under logo */
+  margin-bottom: 40px;      
 }
 
-/* CONTENT (About + Paragraph) */
+
 .content1 {
   width: 100%;
   background-color: #f5f5f5;
-  text-align: left;        /* center text */
+  text-align: left;        
  
 
   display: flex;
   flex-direction: column;
   align-items:flex-start;
-  gap: 20px;                 /* space between About & paragraph */
+  gap: 20px;                 
 }
 
-/* PARAGRAPH */
 .paragraph {
   font-size: 22px;
-  max-width: none;      /* remove width limit */
+  max-width: none;      
   text-align: center;
   margin: 0 auto;
 }
@@ -40,53 +38,50 @@
   top: 60%;
   left: 80%;
   transform: translate(-50%, -50%);
-   width: 350px;      /* Increase this */
+   width: 350px;      
   height: auto;
 }
-/* Section layout */
+
 .content-section {
   max-width: 1280px;      
   margin: 0 auto;         
   padding-left: 24px;     
   padding-right: 24px;    
 
-  padding-top: 100px;     /* ✅ MORE SPACE FROM TOP */
+  padding-top: 100px;     
   padding-bottom: 80px;   
 
   display: grid;          
   grid-template-columns: 1fr;
 
-  gap: 100px;              /* ✅ more gap between columns */
+  gap: 100px;              
   align-items: flex-start;
 }
 
-/* 2 columns on medium screens and up */
 @media (min-width: 768px) {
   .content-section {
     grid-template-columns: repeat(2, 1);
   }
 }
 
-/* Text styling */
 .content-text {
   color: #475569;
-  font-size: 16px;        /* ✅ bigger text */
-  line-height: 1.9;       /* ✅ bigger line spacing */
+  font-size: 16px;        
+  line-height: 1.9;       
 }
 
-/* Space between paragraphs */
 .content-text > * + * {
-  margin-top: 24px;       /* ✅ more space between lines */
+  margin-top: 24px;       
 }
 
 .content2 {
   width: 100%;
   background-color: #ffffff;
-  text-align: center;        /* center text */
+  text-align: center;        
  
 
   display: flex;
   flex-direction: column;
   align-items:center;
-  gap: 10px;                 /* space between About & paragraph */
+  gap: 10px;                 
 }
