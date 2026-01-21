@@ -81,3 +81,66 @@ html, body {
 .menu a:hover {
   background-color: #444;
 }
+
+
+
+.page {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Center image */
+.center-img {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+   width: 350px;      /* Increase this */
+  height: auto;
+}
+
+
+
+.center-img2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   width: 350px;      /* Increase this */
+  height: auto;
+}
+
+.center-img3 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+   width: 350px;      /* Increase this */
+  height: auto;
+}
+
+
+/* Corners */
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

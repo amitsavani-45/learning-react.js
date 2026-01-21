@@ -1,10 +1,12 @@
 import  React, { useState } from "react";
-
+import intern from './images/intern.jpeg';
+import intern2 from './images/intern2.jpg';
+import intern3 from './images/intern3.png';
 import './App.css';
 import logo from './images/AtomOne-Logonew.jpg';
 
 function App() { 
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [setMenuOpen] = useState(false);
   return (
     <>
 
@@ -16,16 +18,13 @@ function App() {
         <button className="button" onClick={() => setMenuOpen(prev => !prev)}>
           ☰
         </button>
-        
+          <img src={intern} alt="intern" className="center-img" width="120" />
+          <img src={intern2} alt="intern2" className="center-img2" width="120" />
+          <img src={intern3} alt="intern3" className="center-img3" width="120" />
+
       </div>
-          {menuOpen && (
-        <div className="menu">
-          <a href="#">Home</a>
-          <a href="#">Intern Info</a>
-          <a href="#">Contact</a>
-        </div>
-      )}
-      
+          
+
       <header className="content">
         <h1>Intern information</h1>
       </header>
