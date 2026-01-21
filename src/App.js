@@ -5,12 +5,14 @@ import intern3 from './images/intern3.png';
 import './App.css';
 import logo from './images/AtomOne-Logonew.jpg';
 
+
 function App() { 
-    const [setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
 
-    
+  
     <div className="container">
 
     <div className="header1">
@@ -44,7 +46,7 @@ function App() {
       <section><h3>Joining Date:05/01/2025</h3></section>
        <section><h3>Internship Position:Software Engineer Trainee</h3></section>
        <section><h3>Mentor Name:Abishek Verma</h3></section>
-      <footer className="footer && content1 ">
+      <footer className="footer  ">
         <p>&copy; 2026 My Website. All rights reserved.</p>
         <p>Contact: atomone@gmail.com</p>
       </footer>
