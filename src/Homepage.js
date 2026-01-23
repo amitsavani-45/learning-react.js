@@ -13,6 +13,7 @@ import slide5 from "./images/slide5.png";
 import slide6 from "./images/slide6.png";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 /* ================= PHOTO SLIDER ================= */
 
@@ -100,6 +101,8 @@ export default function Home() {
         <img src={logo} alt="logo" className="logo-img" />
 
         <nav className="main-nav">
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
           <a href="#home">Home</a>
           <a href="#about">About Us</a>
           <a href="#services">What We Do</a>
