@@ -7,7 +7,7 @@ import logo from './images/AtomOne-Logonew.jpg';
 
 
 function App() { 
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [ setMenuOpen] = useState(false);
 
   return (
     <>
