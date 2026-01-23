@@ -1,7 +1,7 @@
 import './About.css';
 import React, { useState } from 'react';
 import logo from './images/AtomOne-Logonew.jpg';
-import photo from './images/photo.png';
+import md from './images/md.png';
 import icon from './images/icon.png';
 import plant from './images/plant.png';
 function About(){
@@ -26,7 +26,7 @@ function About(){
 
       <p className="paragraph"><h1>" Success is the sum of small efforts, repeated day in and day out. "</h1></p>
       
-        <img src={photo} alt="photo" className="center-imgage " /><div/>
+        <img src={md} alt="md" className="center-imgage " /><div/>
   
   <section className="content-section">
   <div className="content-text">
