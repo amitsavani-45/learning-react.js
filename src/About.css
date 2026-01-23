@@ -13,7 +13,43 @@
   margin-bottom: 40px;      
 }
 
+.homeheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
 
+.logo-img1 {
+  width: 200px;
+}
+
+.main-nav1 {
+  display: flex;
+  gap: 30px;
+}
+
+.main-nav1 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  position: relative;
+}
+
+.main-nav1 a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: 0.3s;
+}
+
+.main-nav1 a:hover::after {
+  width: 100%;
+}
 .content1 {
   width: 100%;
   background-color: #04f3f3;

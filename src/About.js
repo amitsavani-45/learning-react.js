@@ -4,6 +4,7 @@ import logo from './images/AtomOne-Logonew.jpg';
 import md from './images/md.png';
 import icon from './images/icon.png';
 import plant from './images/plant.png';
+import { Link } from "react-router-dom";
 function About(){
 
   const [email, setEmail] = useState('');
@@ -16,9 +17,22 @@ function About(){
     <div className="container1">
 
     <div className="header2">
-        <header>
-        <img src={logo} alt="AtomOne Logo" style={{ width: '200px', height: 'auto' }}/>
-        </header>
+        
+        <header >
+        <img src={logo} alt="logo" className="logo-img1" />
+
+        <nav className="main-nav1">
+            <Link to="/">about</Link>
+            <Link to="/Homepage">Home</Link>
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">What We Do</a>
+          <a href="#location">Location</a>
+          <a href="#career">Career</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </header>
+        
         </div>
         <section className="content1">
         <h1>About Us</h1>
