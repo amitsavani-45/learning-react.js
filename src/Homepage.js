@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 import "./Homepage.css";
-
 import logo from "./images/AtomOne-Logonew.jpg";
 import machine1 from "./images/machine1.png";
 
@@ -123,7 +122,7 @@ export default function Home() {
             <h2 className="section-heading">MISSION</h2>
             <p className="section-text">
             
-To deliver end-to-end solutions in metal stamping and sheet metal processing. We aim to exceed customer expectations while upholding high quality products, safety standards, profitability, and integrity.
+             To deliver end-to-end solutions in metal stamping and sheet metal processing. We aim to exceed customer expectations while upholding high quality products, safety standards, profitability, and integrity.
             </p>
 
             <h2 className="section-heading">VISION</h2>
