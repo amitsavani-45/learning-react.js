@@ -103,8 +103,6 @@ export default function Home() {
         <nav className="main-nav">
             <Link to="/">Home</Link>
             <Link to="/about">About Us</Link>
-          <a href="#home">Home</a>
-          <a href="#about">About Us</a>
           <a href="#services">What We Do</a>
           <a href="#location">Location</a>
           <a href="#career">Career</a>

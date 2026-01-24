@@ -22,10 +22,8 @@ function About(){
         <img src={logo} alt="logo" className="logo-img1" />
 
         <nav className="main-nav1">
-            <Link to="/">about</Link>
-            <Link to="/Homepage">Home</Link>
-          <a href="#home">Home</a>
-          <a href="#about">About Us</a>
+           <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
           <a href="#services">What We Do</a>
           <a href="#location">Location</a>
           <a href="#career">Career</a>
