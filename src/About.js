@@ -23,7 +23,7 @@ function About(){
 
         <nav className="main-nav1">
            <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
+           <Link to="/about">About Us</Link>
           <a href="#services">What We Do</a>
           <a href="#location">Location</a>
           <a href="#career">Career</a>
@@ -36,11 +36,11 @@ function About(){
         <h1>About Us</h1>
       </section>
 
-      <p className="paragraph"><h1>" Success is the sum of small efforts, repeated day in and day out. "</h1></p>
+        <p className="paragraph"><h1>" Success is the sum of small efforts, repeated day in and day out. "</h1></p>
       
         <img src={md} alt="md" className="center-imgage " /><div/>
   
-  <section className="content-section">
+       <section className="content-section">
   <div className="content-text">
       <p >
         AtomOne Technologies was founded by Mr. Satish Goyal in 1996. Our company
@@ -86,7 +86,7 @@ function About(){
 
 
 
-         <footer className="footer-container">
+    <footer className="footer-container">
       
       <div className="footer-content">
         <div className="footer-section company-info">
@@ -139,7 +139,7 @@ function About(){
         <p className="copyright" >© 2026 ATOMONE. All rights reserved.</p>
         <button className="scroll-top" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>↑</button>
       </div>
-</footer>
+   </footer>
 </div>
 
 
