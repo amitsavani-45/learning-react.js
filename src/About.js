@@ -1,6 +1,6 @@
 import './About.css';
 import React, { useState } from 'react';
-import logo from './images/AtomOne-Logonew.jpg';
+import logo from './images/atomone.jpg';
 import md from './images/md.png';
 import icon from './images/icon.png';
 import plant from './images/plant.png';

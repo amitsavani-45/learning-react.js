@@ -3,7 +3,7 @@ import intern from './images/intern.jpeg';
 import intern2 from './images/intern2.jpg';
 import intern3 from './images/intern3.png';
 import './App.css';
-import logo from './images/AtomOne-Logonew.jpg';
+import logo from './images/atomone.jpg';
 
 
 function App() { 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import "./Homepage.css";
-import logo from "./images/AtomOne-Logonew.jpg";
+import logo from "./images/atomone.jpg";
 import machine1 from "./images/machine1.png";
 
 import slide1 from "./images/slide1.png";
